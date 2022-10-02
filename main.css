@@ -3,7 +3,10 @@
   font-size: 20px;
   font-weight: 500;
   margin: 0px;
+  scroll-behavior: smooth;
 }
+
+
 
 .herosection {
   color: white;
@@ -290,8 +293,9 @@ sup {
 
 a {
   text-decoration: none;
-  color: white;
-  font-size: 600;
+
+
+
 }
 
 /*# sourceMappingURL=main.css.map */
@@ -356,6 +360,34 @@ p {
 }
 
 
-.App {
-  margin-bottom: 140px;
+
+
+.mathcontainer {
+  height: 570px;
+  overflow: hidden;
+}
+
+
+.references {
+  background-size: 30vw;
+  background-position-x: right;
+  background-image: url(./Everning_star.jpg);
+  background-repeat: no-repeat;
+  background-color: black;
+  color: white;
+  padding: 100px 0;
+  margin: 80px 0;
+  margin-bottom: 0px;
+  width: 100vw;
+  object-fit;
+}
+
+.cta {
+  color: white;
+}
+
+.references_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap: 6px;
 }
